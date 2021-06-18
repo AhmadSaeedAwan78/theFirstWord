@@ -1,0 +1,195 @@
+body{
+	margin:0 auto;
+}
+.head{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eee;
+    cursor: pointer;
+    margin: 20px 0;
+}
+#heading{
+	margin-bottom: 20px;
+}
+.head ul{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 0;
+    background-color: #d3d3d3; 
+}
+.head h3{
+	margin:0; 
+	padding-left: 10px;
+	color: #7f847b;
+	font-size: 20px;
+}
+.head strong,.head span{
+	font-size:22px; 
+}
+.head li{
+	color: #fcfcfc;
+	list-style: none;
+}
+.fa-chevron-up,.fa-chevron-down{
+	padding: 0 10px;
+	font-size:18px; 
+}
+.collapseZero{
+	padding: 0px 20px;
+}
+.fork{
+	flex-grow: 1;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 30px;
+}
+.fork .fa-code-fork{
+	transform: rotate(90deg); 
+}
+.fork i{
+	 font-size: 20px;
+    color: #7f847b;
+    padding:0;
+}
+.fa-pencil{
+	padding-left: 20px !important;
+}
+/*.li.es-selectable::first-letter {
+	display: inline-block !important;
+	text-transform: capitalize !important;
+}*/
+.bootstrap-select.btn-group .dropdown-menu {
+	    transform: initial !important;
+	    min-height: 400px !important;
+}
+select.form-control:not([size]):not([multiple]) {
+	height: auto !important;
+}
+#wrap .wrap__title {margin-bottom: 15px; color: #444;}
+#wrap .wrap__title .small {font-size: 11px; color: #666; margin-left: 20px;}
+#wrap .wrap__table {border-collapse: collapse; table-layout: fixed; width: 100%;}
+#wrap .wrap__table th {color: #222; border: 1px solid #ccc; padding: 10px; text-align: left;}
+#wrap .wrap__table th:nth-child(1) {width: 80px;}
+#wrap .wrap__table th:nth-child(2) {width: 80px;}
+#wrap .wrap__table th:nth-child(3) {width: 150px;}
+#wrap .wrap__table td {border: 1px solid #ccc; padding: 10px;}
+#easySelectable {display: flex; flex-wrap: wrap;padding: 30px 0 0;}
+#easySelectable li {margin: 0 1.333% 20px 0;padding: 10px; background: #fff; transition: background 0.2s;width: 31.333%;height: 50px; color: #222; font-weight: bold; text-align: center; display: flex; justify-content: center; align-items: center; cursor: pointer; box-shadow: 1px 1px 1px 1px #ccc; }
+#easySelectable li.es-selected {background: #7f847b; color: #fff;}
+
+.barfiller {
+	margin: 10px 0 0 !important;  
+}
+
+
+.easySelectable {-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;}
+
+@media screen and (max-width: 786px){
+	#easySelectable li{
+		width: 48.333%;
+	}
+}
+@media screen and (max-width: 576px){
+	#easySelectable li{
+		width: 90%;
+		margin-right: 0;
+		font-size: 14px;
+	}
+	#easySelectable{
+		justify-content: center;
+	}
+	.fa-chevron-up, .fa-chevron-down{
+		font-size: 12px;
+	}
+	.head strong, .head span,.fork i{
+		font-size: 18px;
+	}
+	.head h3{
+		font-size: 16px;
+	}
+	.fork{
+		padding-right: 20px;
+	}
+	.collapseZero{
+		padding:0; 
+	}
+	.content p, .content h6{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 420px){
+	.margin{
+		margin: 0 !important;
+	}
+	.head strong, .head span, .fork i{
+		font-size: 14px;
+	}
+	.head h3 {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 380px){
+	#easySelectable li{
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+.content p,.content h6{
+	/*text-transform: capitalize;*/
+    font-size: 18px;
+    font-weight: 500;
+    color: #7f847b;
+    margin-top: 30px;
+}
+.content p{
+	 border-bottom: 1px solid #ccc;
+}
+.content small,.content li,.wrap-content form label{
+	font-size: 16px;
+    color: #7f847b;
+}
+.wrap-content h6{
+	color: #7f847b;
+	font-size: 18px;
+	padding-top: 20px;
+} 
+.wrap-content ul{
+	padding: 0;
+}
+.wrap-content form{
+	display: flex;
+	flex-direction: column;
+}
+.wrap-content form textarea{
+	height: 100px;
+	box-shadow: 0px 1px 1px #ccc;
+	padding: 7px 15px;
+	transition: background 0.2s;
+}
+.wrap-content form textarea:focus{
+	outline: 0;
+}
+em{
+	color: #b75765;
+}
+.icons ul{
+	display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.icons li{
+	list-style: none;
+	padding: 0 10px;
+}
+.icons li a{
+	text-decoration: none;
+	color: #7f847b;
+} 
+.fa-comment,.fa-file-o{
+	padding-right: 10px;
+}

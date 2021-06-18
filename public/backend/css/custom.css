@@ -1,0 +1,24 @@
+
+.actions-btns {
+	min-width: 100px;
+	text-align: center;
+}
+.actions-btns.sigle {
+	min-width: inherit;
+}
+.actions-btns.three-btns {
+	min-width: 150px;
+}
+.actions-btns .btn {
+	margin: 0 3px;
+}
+.actions-btns .btn i.fa {
+	margin-right: 0px;
+}
+
+.is-invalid + .form-control-feedback {
+	color: #dc3545;
+}
+.is-valid + .form-control-feedback {
+	color: #28a745;
+}

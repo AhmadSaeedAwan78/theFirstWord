@@ -1,0 +1,69 @@
+.table-responsive,.tile{
+	padding: 0 20px;
+}
+.table th,.table a,.table td{
+	font-size: 14px;
+}
+#add_images{
+	margin: 20px 0;
+}
+.left-side-bar{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.profile_info{
+	width: 35%;
+	    text-align: -webkit-center;
+}
+.right-side{
+	width: 65%;
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 1450px){
+	#report_table{
+		width: 1300px !important;
+	}
+}
+@media only screen and (max-width: 1190px){
+	.table.sending_table{
+		width: 950px;
+		overflow-x: scroll;
+	}
+}
+@media only screen and (max-width: 992px){
+	.table-responsive.table{
+		width: 850px;
+		overflow-x: scroll;
+	}
+	.right-side .form-group{
+		display: flex;
+	    flex-direction: column;
+	}
+	.tile{
+		overflow-x: auto;
+	}
+	.tile .table-responsive{
+		width: 900px;
+	}
+	.card .form-group{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 610px){
+	.table.subformTwo{
+		width: 500px;
+	}
+	.img_dlt img{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.left-side-bar{
+		flex-direction: column;
+    align-items: center;
+	}
+	.profile_info,.right-side{
+		width: 100%;
+	}
+}
